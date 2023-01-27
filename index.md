@@ -13,6 +13,11 @@ You can reach me at lconger [at] caltech [dot] edu.
 
 ## Publications 
 
+### Submitted Papers
+Designing System Level Synthesis Controllers for Nonlinear Systems with Stability Guarantees \
+**Lauren Conger**, Syndey Vernon, Eric Mazumdar. \
+[[paper](https://arxiv.org/abs/2212.03923)]
+
 ### Conference Papers
 Nonlinear System Level Synthesis for Polynomial Dynamics \
 **Lauren Conger**, Jing Shuang (Lisa) Li, Eric Mazumdar, Steven L. Brunton. \
