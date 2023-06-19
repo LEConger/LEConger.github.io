@@ -15,15 +15,15 @@ You can reach me at lconger [at] caltech [dot] edu.
 
 ### Submitted Papers
 Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
-**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff \
+**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
 [email me for paper]
 
 Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
-Yingying Li*, Jing Yu*, **Lauren Conger**, Adam Wierman \ 
+Yingying Li*, Jing Yu*, **Lauren Conger**, Adam Wierman. \ 
 [[paper](https://yingying.li/files/set_membership_stat_analysis_ver2.pdf)]
 
 A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
-**Lauren Conger**, Eric Mazumdar, John C. Doyle \
+**Lauren Conger**, Eric Mazumdar, John C. Doyle. \
 [email me for paper]
 
 ### Conference Papers
