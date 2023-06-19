@@ -14,11 +14,24 @@ You can reach me at lconger [at] caltech [dot] edu.
 ## Publications 
 
 ### Submitted Papers
-Designing System Level Synthesis Controllers for Nonlinear Systems with Stability Guarantees \
-**Lauren Conger**, Syndey Vernon, Eric Mazumdar. \
-[[paper](https://arxiv.org/abs/2212.03923)]
+Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
+**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff \
+[email me for paper]
+
+Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
+Yingying Li*, Jing Yu*, **Lauren Conger**, Adam Wierman \ 
+[[paper](https://yingying.li/files/set_membership_stat_analysis_ver2.pdf)]
+
+A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
+**Lauren Conger**, Eric Mazumdar, John C. Doyle \
+[email me for paper]
 
 ### Conference Papers
+Designing System Level Synthesis Controllers for Nonlinear Systems with Stability Guarantees \
+**Lauren Conger**, Syndey Vernon, Eric Mazumdar. \
+_L4DC, 2023_ \
+[[paper](https://arxiv.org/abs/2212.03923)]
+
 Nonlinear System Level Synthesis for Polynomial Dynamics \
 **Lauren Conger**, Jing Shuang (Lisa) Li, Eric Mazumdar, Steven L. Brunton. \
 _CDC, 2022_ \
