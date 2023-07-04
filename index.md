@@ -19,7 +19,7 @@ Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
 [[paper](https://arxiv.org/abs/2307.01166)]
 
 Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
-Yingying Li*, Jing Yu*, **Lauren Conger**, Adam Wierman. \ 
+Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \ 
 [[paper](https://yingying.li/files/set_membership_stat_analysis_ver2.pdf)]
 
 A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
