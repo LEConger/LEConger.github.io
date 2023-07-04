@@ -16,7 +16,7 @@ You can reach me at lconger [at] caltech [dot] edu.
 ### Submitted Papers
 Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
 **Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
-[email me for paper]
+[[paper](https://arxiv.org/abs/2307.01166)]
 
 Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
 Yingying Li*, Jing Yu*, **Lauren Conger**, Adam Wierman. \ 
