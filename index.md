@@ -28,7 +28,7 @@ A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Qu
 
 ### Conference Papers
 Designing System Level Synthesis Controllers for Nonlinear Systems with Stability Guarantees \
-**Lauren Conger**, Syndey Vernon, Eric Mazumdar. \
+**Lauren Conger**, Sydney Vernon, Eric Mazumdar. \
 _L4DC, 2023_ \
 [[paper](https://arxiv.org/abs/2212.03923)]
 
