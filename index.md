@@ -1,4 +1,4 @@
-I am a third-year PhD student in Control and Dynamical Systems at California Institute of Technology. I am advised by Professors [Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/) and [John Doyle](https://eas.caltech.edu/people/doyle). 
+I am a PhD candidate in Control and Dynamical Systems at Caltech. I am advised by Professors [Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/), [Franca Hoffmann](https://francahoffmann.com/) and [John Doyle](https://eas.caltech.edu/people/doyle). 
 My research is on nonlinear control theory and algorithms for analysis of game dynamics.
 
 Before Caltech, I earned my Bachelors degree in [Electrical and Conputer Engingeering](https://www.ece.cornell.edu/ece) with a Physics minor from Cornell University in 2018.
@@ -19,7 +19,7 @@ Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
 [[paper](https://arxiv.org/abs/2307.01166)]
 
 Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
-Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \ 
+Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \
 [[paper](https://yingying.li/files/set_membership_stat_analysis_ver2.pdf)]
 
 A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
