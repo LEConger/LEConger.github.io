@@ -58,23 +58,23 @@ Gnadt, Belarge, Canciani, **Conger**, Curro, Edelman, Morales, O'Keeffe, Taylor,
 
 Semiautonomous Seminar at Berkeley \
 Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
-December 2023 \
+December 2023
 
 SIAM Student Meeting at Caltech \
 Inequalities for proving convergence of coupled PDEs for modeling distribution shift \
-October 2023 \
+October 2023
 
 Group Seminar, Harvard University \
 Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
-May 2023 \
+May 2023
 
 Research Seminar, MIT Lincoln Lab Homeland Protection Systems
 Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
-May 2023 \
+May 2023
 
 Group Seminar, University of Washingon \
 System Level Synthesis: Parameterization for Linear and Nonlinear Control \
-August 2022 \
+August 2022
 
 
 
