@@ -13,11 +13,7 @@ You can reach me at lconger [at] caltech [dot] edu.
 
 ## Publications 
 
-### Submitted Papers
-Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
-**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
-[[paper](https://arxiv.org/abs/2307.01166)]
-
+### Preprints
 Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
 Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \
 [[paper](https://yingying.li/files/set_membership_stat_analysis_ver2.pdf)]
@@ -27,6 +23,11 @@ A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Qu
 [email me for paper]
 
 ### Conference Papers
+Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
+**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
+_NeurIPS, 2023_ \
+[[paper](https://arxiv.org/abs/2307.01166)]
+
 Designing System Level Synthesis Controllers for Nonlinear Systems with Stability Guarantees \
 **Lauren Conger**, Sydney Vernon, Eric Mazumdar. \
 _L4DC, 2023_ \
@@ -52,3 +53,28 @@ _International Union of Crystallography Journal, 2019_ \
 Signal Enhancement for Magnetic Navigation Challenge Problem \
 Gnadt, Belarge, Canciani, **Conger**, Curro, Edelman, Morales, O'Keeffe, Taylor, Rackauckas. \
 [[paper](https://arxiv.org/pdf/2007.12158.pdf)]
+
+## Talks
+
+Semiautonomous Seminar at Berkeley \
+Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
+December 2023 \
+
+SIAM Student Meeting at Caltech \
+Inequalities for proving convergence of coupled PDEs for modeling distribution shift \
+October 2023 \
+
+Group Seminar, Harvard University \
+Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
+May 2023 \
+
+Research Seminar, MIT Lincoln Lab Homeland Protection Systems
+Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
+May 2023 \
+
+Group Seminar, University of Washingon \
+System Level Synthesis: Parameterization for Linear and Nonlinear Control \
+August 2022 \
+
+
+
