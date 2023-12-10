@@ -68,7 +68,7 @@ Group Seminar, Harvard University \
 Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
 May 2023
 
-Research Seminar, MIT Lincoln Lab Homeland Protection Systems
+Research Seminar, MIT Lincoln Lab Homeland Protection Systems \
 Coupled Gradient Flows for Strategic Non-Local Distribution Shift \
 May 2023
 
