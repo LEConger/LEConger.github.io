@@ -3,6 +3,8 @@ My research is on nonlinear control theory and analysis of game dynamics using P
 
 Before Caltech, I earned my Bachelors degree in [Electrical and Computer Engingeering](https://www.ece.cornell.edu/ece) with a physics minor from Cornell University in 2018.
 
+I am supported by a National Defense Science and Engineering Graduate Fellowship and PIMCO Data Science Graduate Fellowship.
+
 ---
 You can reach me at lconger [at] caltech [dot] edu.
  
