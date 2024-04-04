@@ -16,9 +16,13 @@ You can reach me at lconger [at] caltech [dot] edu.
 ## Publications 
 
 ### Preprints
+Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints \
+**Lauren Conger**, Yiheng Lin, Adam Wierman, Eric Mazumdar. \
+[[paper](https://arxiv.org/abs/2403.18956)]
+
 Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
 Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \
-[[paper](https://yingying.li/files/set_membership_stat_analysis_ver2.pdf)]
+[[paper](https://arxiv.org/abs/2309.14648)]
 
 A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
 **Lauren Conger**, Eric Mazumdar, John C. Doyle. \
