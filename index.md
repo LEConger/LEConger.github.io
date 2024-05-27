@@ -20,15 +20,17 @@ Characterizing Controllability and Observability for Systems with Locality, Comm
 **Lauren Conger**, Yiheng Lin, Adam Wierman, Eric Mazumdar. \
 [[paper](https://arxiv.org/abs/2403.18956)]
 
-Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
-Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \
-[[paper](https://arxiv.org/abs/2309.14648)]
-
 A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
 **Lauren Conger**, Eric Mazumdar, John C. Doyle. \
 [email me for paper]
 
 ### Conference Papers
+
+Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
+Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \
+_ICML, 2024_ \
+[[paper](https://arxiv.org/abs/2309.14648)]
+
 Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
 **Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
 _NeurIPS, 2023_ \
