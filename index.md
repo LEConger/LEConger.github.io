@@ -72,7 +72,7 @@ CSC@USC Seminar Series, University of Southern California \
 Wasserstein Gradient Flows for Modeling Strategic Distribution Shift \
 September 2024
 
-Dr. Andr´e Schlichting, Universit¨at M¨unster \
+Dr. André Schlichting, Universität Münster \
 Research Visit \
 July 2024
 
@@ -85,7 +85,7 @@ Intelligent Control Systems Lab Seminar, ETH \
 Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
 July 2024
 
-Kolloquium der angewandten Mathematik, Universitat Munster \
+Kolloquium der angewandten Mathematik, Universität Münster \
 Dynamics of Strategic Agents and Algorithms as PDEs \
 July 2024
 
