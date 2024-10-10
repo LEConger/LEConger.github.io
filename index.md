@@ -16,15 +16,19 @@ You can reach me at lconger [at] caltech [dot] edu.
 ## Publications 
 
 ### Preprints
-Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints \
-**Lauren Conger**, Yiheng Lin, Adam Wierman, Eric Mazumdar. \
-[[paper](https://arxiv.org/abs/2403.18956)]
+Convex Constrained Controller Synthesis for Evolution Equations \
+**Lauren Conger**, Antoine Leeman, Franca Hoffmann. \
+[[paper](https://arxiv.org/abs/2410.02658)]
 
 A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
 **Lauren Conger**, Eric Mazumdar, John C. Doyle. \
 [email me for paper]
 
 ### Conference Papers
+Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints \
+**Lauren Conger**, Yiheng Lin, Adam Wierman, Eric Mazumdar. \
+_CDC, 2024_ \
+[[paper](https://arxiv.org/abs/2403.18956)]
 
 Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis \
 Yingying Li, Jing Yu, **Lauren Conger**, Adam Wierman. \
@@ -62,7 +66,36 @@ Signal Enhancement for Magnetic Navigation Challenge Problem \
 Gnadt, Belarge, Canciani, **Conger**, Curro, Edelman, Morales, O'Keeffe, Taylor, Rackauckas. \
 [[paper](https://arxiv.org/pdf/2007.12158.pdf)]
 
-## Talks
+## Talks, Visits, and Conferences
+
+CSC@USC Seminar Series, University of Southern California \
+Wasserstein Gradient Flows for Modeling Strategic Distribution Shift \
+September 2024
+
+Dr. Andr´e Schlichting, Universit¨at M¨unster \
+Research Visit \
+July 2024
+
+Theory of Interacting Particle Systems Mini-Symposium \
+European Congress of Mathematics \
+Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
+July 2024
+
+Intelligent Control Systems Lab Seminar, ETH \
+Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
+July 2024
+
+Kolloquium der angewandten Mathematik, Universitat Munster \
+Dynamics of Strategic Agents and Algorithms as PDEs \
+July 2024
+
+Frontiers in Interacting Particle Systems, Aggregation-Diffusion Equations & Collective Behavior \
+Summer Research School, CIRM Marseille France \
+June 2024
+
+Aggregation-Diffusion Equations & Collective Behavior: Analysis, Numerics and Applications \
+Conference, CIRM Marseille France \
+April 2024
 
 Semiautonomous Seminar at Berkeley \
 Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows \
