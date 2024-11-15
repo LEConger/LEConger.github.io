@@ -16,6 +16,10 @@ You can reach me at lconger [at] caltech [dot] edu.
 ## Publications 
 
 ### Preprints
+Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games \
+**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
+[[paper](https://arxiv.org/abs/2411.07403)]
+
 Convex Constrained Controller Synthesis for Evolution Equations \
 **Lauren Conger**, Antoine Leeman, Franca Hoffmann. \
 [[paper](https://arxiv.org/abs/2410.02658)]
