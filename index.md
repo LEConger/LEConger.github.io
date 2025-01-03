@@ -1,5 +1,5 @@
 I am a PhD candidate in Control and Dynamical Systems at Caltech. I am advised by Professors [Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/), [Franca Hoffmann](https://francahoffmann.com/) and [John Doyle](https://eas.caltech.edu/people/doyle). 
-My research is on nonlinear control theory and analysis of game dynamics using PDEs.
+My research is on control theory and analysis of game dynamics using PDEs.
 
 Before Caltech, I earned my Bachelors degree in [Electrical and Computer Engingeering](https://www.ece.cornell.edu/ece) with a physics minor from Cornell University in 2018.
 
@@ -70,7 +70,14 @@ Signal Enhancement for Magnetic Navigation Challenge Problem \
 Gnadt, Belarge, Canciani, **Conger**, Curro, Edelman, Morales, O'Keeffe, Taylor, Rackauckas. \
 [[paper](https://arxiv.org/pdf/2007.12158.pdf)]
 
-## Talks, Visits, and Conferences
+## Talks and Visits
+
+Conference on Decision and Control, Milan, Italy \
+Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints \
+December 2024
+
+Oberwolfach Mini-Workshop: High-Dimensional Control Problems and Mean-Field Equations with Applications in Machine Learning, Germany \
+December 2024
 
 CSC@USC Seminar Series, University of Southern California \
 Wasserstein Gradient Flows for Modeling Strategic Distribution Shift \
