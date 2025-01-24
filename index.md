@@ -20,15 +20,18 @@ Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games \
 **Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
 [[paper](https://arxiv.org/abs/2411.07403)]
 
-Convex Constrained Controller Synthesis for Evolution Equations \
-**Lauren Conger**, Antoine Leeman, Franca Hoffmann. \
-[[paper](https://arxiv.org/abs/2410.02658)]
-
 A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
 **Lauren Conger**, Eric Mazumdar, John C. Doyle. \
 [email me for paper]
 
 ### Conference Papers
+
+Convex Constrained Controller Synthesis for Evolution Equations \
+**Lauren Conger**, Antoine Leeman, Franca Hoffmann. \
+_ACC, 2025_ **Best Student Paper Finalist**\
+[[paper](https://arxiv.org/abs/2410.02658)]
+
+
 Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints \
 **Lauren Conger**, Yiheng Lin, Adam Wierman, Eric Mazumdar. \
 _CDC, 2024_ \
