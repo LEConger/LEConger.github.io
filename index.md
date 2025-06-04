@@ -13,16 +13,19 @@ You can reach me at lconger [at] caltech [dot] edu.
 
 ---
 
+
 ## Publications 
 
 ### Preprints
+
+Computing Optimal Transport Plans via Min-Max Gradient Flows \
+**Lauren Conger**, Franca Hoffmann, Ricardo Baptista, Eric Mazumdar. \
+[[paper](https://arxiv.org/abs/2504.16890)]
+
 Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games \
 **Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
 [[paper](https://arxiv.org/abs/2411.07403)]
 
-A System Level Synthesis Approach to Computing Open Loop Equilibria in Linear Quadratic Games \
-**Lauren Conger**, Eric Mazumdar, John C. Doyle. \
-[email me for paper]
 
 ### Conference Papers
 
@@ -74,6 +77,10 @@ Gnadt, Belarge, Canciani, **Conger**, Curro, Edelman, Morales, O'Keeffe, Taylor,
 [[paper](https://arxiv.org/pdf/2007.12158.pdf)]
 
 ## Talks and Visits
+
+Co-PI Seminar, UC San Diego \
+Convex Constrained Controller Synthesis for Evolution Equations \
+February 2025 
 
 Conference on Decision and Control, Milan, Italy \
 Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints \
