@@ -8,7 +8,7 @@ I am supported by a National Defense Science and Engineering Graduate Fellowship
 ---
 You can reach me at lconger [at] caltech [dot] edu.
  
-<a href="CV_January_2024.pdf" target="_blank">CV</a>, [Google Scholar](https://scholar.google.com/citations?hl=en&user=Iv6uAdMAAAAJ), [LinkedIn](https://www.linkedin.com/in/lauren-conger-82096216a/)
+<a href="CV_June_2025.pdf" target="_blank">CV</a>, [Google Scholar](https://scholar.google.com/citations?hl=en&user=Iv6uAdMAAAAJ), [LinkedIn](https://www.linkedin.com/in/lauren-conger-82096216a/)
 <!-- Remove above link if you don't want to attibute -->
 
 ---
