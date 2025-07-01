@@ -18,6 +18,10 @@ You can reach me at lconger [at] caltech [dot] edu.
 
 ### Preprints
 
+Monotone Multispecies Flows \
+**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff .\
+[[paper](https://arxiv.org/abs/2506.22947)]
+
 Computing Optimal Transport Plans via Min-Max Gradient Flows \
 **Lauren Conger**, Franca Hoffmann, Ricardo Baptista, Eric Mazumdar. \
 [[paper](https://arxiv.org/abs/2504.16890)]
