@@ -35,7 +35,7 @@ Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games \
 
 Convex Constrained Controller Synthesis for Evolution Equations \
 **Lauren Conger**, Antoine Leeman, Franca Hoffmann. \
-_ACC, 2025_ **Best Student Paper Finalist**\
+_ACC, 2025_ **Best Student Paper Award**\
 [[paper](https://arxiv.org/abs/2410.02658)]
 
 
@@ -81,6 +81,14 @@ Gnadt, Belarge, Canciani, **Conger**, Curro, Edelman, Morales, O'Keeffe, Taylor,
 [[paper](https://arxiv.org/pdf/2007.12158.pdf)]
 
 ## Talks and Visits
+
+American Control Conference, Denver \
+Convex Constrained Controller Synthesis for Evolution Equations \
+July 2025
+
+Wasserstein Gradient Flows in Math and Machine Learning, Banff, Canada \
+Monotonicity of Coupled Multispecies Wasserstein-2 Gradient Flows  \
+June 2025
 
 Co-PI Seminar, UC San Diego \
 Convex Constrained Controller Synthesis for Evolution Equations \
