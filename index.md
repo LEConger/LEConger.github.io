@@ -22,16 +22,17 @@ Monotone Multispecies Flows \
 **Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff .\
 [[paper](https://arxiv.org/abs/2506.22947)]
 
-Computing Optimal Transport Plans via Min-Max Gradient Flows \
-**Lauren Conger**, Franca Hoffmann, Ricardo Baptista, Eric Mazumdar. \
-[[paper](https://arxiv.org/abs/2504.16890)]
-
 Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games \
 **Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
 [[paper](https://arxiv.org/abs/2411.07403)]
 
 
 ### Conference Papers
+
+Computing Optimal Transport Plans via Min-Max Gradient Flows \
+**Lauren Conger**, Franca Hoffmann, Ricardo Baptista, Eric Mazumdar. \
+_CDC, 2025_ \
+[[paper](https://arxiv.org/abs/2504.16890)]
 
 Convex Constrained Controller Synthesis for Evolution Equations \
 **Lauren Conger**, Antoine Leeman, Franca Hoffmann. \
