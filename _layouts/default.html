@@ -231,6 +231,58 @@
         .publication a:hover {
             text-decoration: underline;
         }
+
+      /* --- Publication header layout --- */
+        .publication-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 8px;
+        }
+        
+        /* Title */
+        .publication-title {
+            font-weight: 500;
+            color: #003366;
+            font-size: 1.05em;
+            flex: 1;
+            margin-bottom: 2px;
+        }
+        
+        /* Links container */
+        .publication-links {
+            display: flex;
+            gap: 10px;
+            flex-shrink: 0;
+            white-space: nowrap;
+        }
+        
+        /* Individual link style */
+        .publication-links a {
+            font-size: 0.95em;
+            color: #0066cc;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        
+        .publication-links a:hover {
+            color: #004999;
+            text-decoration: underline;
+        }
+        
+        /* Compact responsive behavior */
+        @media screen and (max-width: 650px) {
+          .publication-header {
+              flex-direction: column;
+              align-items: flex-start;
+          }
+        
+          .publication-links {
+              margin-top: 4px;
+              gap: 8px;
+          }
+        }
+
         
         /* ----- TALKS SECTION ----- */
         .talk-entry {
@@ -324,10 +376,18 @@ My research is on control theory and analysis of game dynamics using PDEs.</p>
     <h3>Preprints</h3>
     
     <div class="publication">
+      <div class="publication-header">
         <span class="publication-title">Monotone Multispecies Flows</span>
-        <div class="authors"><strong>Lauren Conger</strong>, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff</div>
-        [<a href="https://arxiv.org/abs/2506.22947">paper</a>]
+        <div class="publication-links">
+          <a href="https://arxiv.org/abs/2506.22947" target="_blank">[paper]</a>
+          <a href="https://github.com/example" target="_blank">[code]</a>
+          <a href="slides.pdf" target="_blank">[slides]</a>
+        </div>
+      </div>
+      <div class="authors"><strong>Lauren Conger</strong>, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff</div>
+      <div class="venue">arXiv, 2025</div>
     </div>
+
     
     <div class="publication">
         <span class="publication-title">Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games</span>
