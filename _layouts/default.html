@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <style>
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #ddd;
+            margin: 20px 0 20px 0;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .tab {
+            padding: 10px 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+            bottom: -2px;
+        }
+        
+        .tab:hover {
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .tab.active {
+            color: #0066cc;
+            border-bottom-color: #0066cc;
+        }
+        
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .publication {
+            margin-bottom: 18px;
+        }
+        
+        .publication-title {
+            font-weight: 500;
+            display: block;
+            margin-bottom: 3px;
+        }
+        
+        .authors {
+            color: #555;
+            margin-bottom: 3px;
+        }
+        
+        .venue {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 3px;
+        }
+        
+        .award {
+            color: #d9534f;
+            font-weight: 500;
+        }
+        
+        .talk-entry {
+            margin-bottom: 18px;
+        }
+        
+        .talk-location {
+            font-weight: 500;
+        }
+        
+        .talk-title {
+            font-style: italic;
+            color: #555;
+        }
+        
+        .talk-date {
+            color: #666;
+        }
+        
+        .placeholder {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 4px;
+            text-align: center;
+            color: #666;
+            border: 2px dashed #ddd;
+            margin: 20px 0;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
+      <section>
+      
+      <p>I am a PhD candidate in Control and Dynamical Systems at Caltech. I am advised by Professors <a href="http://users.cms.caltech.edu/~mazumdar/">Eric Mazumdar</a>, <a href="https://francahoffmann.com/">Franca Hoffmann</a> and <a href="https://eas.caltech.edu/people/doyle">John Doyle</a>. 
+My research is on control theory and analysis of game dynamics using PDEs.</p>
+
+<p>Before Caltech, I earned my Bachelors degree in <a href="https://www.ece.cornell.edu/ece">Electrical and Computer Engineering</a> with a physics minor from Cornell University in 2018.</p>
+
+<p>I am supported by a National Defense Science and Engineering Graduate Fellowship and PIMCO Data Science Graduate Fellowship.</p>
+
+<hr>
+
+<p>You can reach me at lconger [at] caltech [dot] edu.</p>
+ 
+<p><a href="CV_June_2025.pdf" target="_blank">CV</a>, <a href="https://scholar.google.com/citations?hl=en&user=Iv6uAdMAAAAJ">Google Scholar</a>, <a href="https://www.linkedin.com/in/lauren-conger-82096216a/">LinkedIn</a></p>
+
+<hr>
+
+<div class="tabs">
+    <button class="tab active" onclick="showTab('publications')">Publications</button>
+    <button class="tab" onclick="showTab('talks')">Talks & Visits</button>
+    <button class="tab" onclick="showTab('projects')">Projects</button>
+    <button class="tab" onclick="showTab('teaching')">Teaching</button>
+    <button class="tab" onclick="showTab('reading')">Reading Group</button>
+</div>
+
+<div id="publications" class="tab-content active">
+    <h2>Publications</h2>
+    
+    <h3>Preprints</h3>
+    
+    <div class="publication">
+        <span class="publication-title">Monotone Multispecies Flows</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff</div>
+        [<a href="https://arxiv.org/abs/2506.22947">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff</div>
+        [<a href="https://arxiv.org/abs/2411.07403">paper</a>]
+    </div>
+    
+    <h3>Conference Papers</h3>
+    
+    <div class="publication">
+        <span class="publication-title">Computing Optimal Transport Plans via Min-Max Gradient Flows</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Franca Hoffmann, Ricardo Baptista, Eric Mazumdar</div>
+        <div class="venue">CDC, 2025</div>
+        [<a href="https://arxiv.org/abs/2504.16890">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Convex Constrained Controller Synthesis for Evolution Equations</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Antoine Leeman, Franca Hoffmann</div>
+        <div class="venue">ACC, 2025 <span class="award">Best Student Paper Award</span></div>
+        [<a href="https://arxiv.org/abs/2410.02658">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Yiheng Lin, Adam Wierman, Eric Mazumdar</div>
+        <div class="venue">CDC, 2024</div>
+        [<a href="https://arxiv.org/abs/2403.18956">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Learning the Uncertainty Sets for Control Dynamics via Set Membership: A Non-Asymptotic Analysis</span>
+        <div class="authors">Yingying Li, Jing Yu, <strong>Lauren Conger</strong>, Adam Wierman</div>
+        <div class="venue">ICML, 2024</div>
+        [<a href="https://arxiv.org/abs/2309.14648">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff</div>
+        <div class="venue">NeurIPS, 2023</div>
+        [<a href="https://arxiv.org/abs/2307.01166">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Designing System Level Synthesis Controllers for Nonlinear Systems with Stability Guarantees</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Sydney Vernon, Eric Mazumdar</div>
+        <div class="venue">L4DC, 2023</div>
+        [<a href="https://arxiv.org/abs/2212.03923">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Nonlinear System Level Synthesis for Polynomial Dynamics</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Jing Shuang (Lisa) Li, Eric Mazumdar, Steven L. Brunton</div>
+        <div class="venue">CDC, 2022</div>
+        [<a href="https://arxiv.org/abs/2205.02187">paper</a>]
+    </div>
+    
+    <div class="publication">
+        <span class="publication-title">Output-Feedback System Level Synthesis via Dynamic Programming</span>
+        <div class="authors"><strong>Lauren Conger</strong>, Shih-Hao Tseng</div>
+        <div class="venue">ACC, 2022</div>
+        [<a href="https://arxiv.org/abs/2111.00098">paper</a>]
+    </div>
+    
+    <h3>Journal Papers</h3>
+    
+    <div class="publication">
+        <span class="publication-title">Resolution and dose dependence of radiation damage in biomolecular systems</span>
+        <div class="authors">Hakan Atakisi, <strong>Lauren Conger</strong>, David Moreau and Robert Thorne</div>
+        <div class="venue">International Union of Crystallography Journal, 2019</div>
+        [<a href="https://journals.iucr.org/m/issues/2019/06/00/jt5036/index.html">paper</a>]
+    </div>
+    
+    <h3>Workshop Papers</h3>
+    
+    <div class="publication">
+        <span class="publication-title">Signal Enhancement for Magnetic Navigation Challenge Problem</span>
+        <div class="authors">Gnadt, Belarge, Canciani, <strong>Conger</strong>, Curro, Edelman, Morales, O'Keeffe, Taylor, Rackauckas</div>
+        [<a href="https://arxiv.org/pdf/2007.12158.pdf">paper</a>]
+    </div>
+</div>
+
+<div id="talks" class="tab-content">
+    <h2>Talks and Visits</h2>
+    
+    <div class="talk-entry">
+        <div class="talk-location">American Control Conference, Denver</div>
+        <div class="talk-title">Convex Constrained Controller Synthesis for Evolution Equations</div>
+        <div class="talk-date">July 2025</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Wasserstein Gradient Flows in Math and Machine Learning, Banff, Canada</div>
+        <div class="talk-title">Monotonicity of Coupled Multispecies Wasserstein-2 Gradient Flows</div>
+        <div class="talk-date">June 2025</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Co-PI Seminar, UC San Diego</div>
+        <div class="talk-title">Convex Constrained Controller Synthesis for Evolution Equations</div>
+        <div class="talk-date">February 2025</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Conference on Decision and Control, Milan, Italy</div>
+        <div class="talk-title">Characterizing Controllability and Observability for Systems with Locality, Communication, and Actuation Constraints</div>
+        <div class="talk-date">December 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Oberwolfach Mini-Workshop: High-Dimensional Control Problems and Mean-Field Equations with Applications in Machine Learning, Germany</div>
+        <div class="talk-date">December 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">CSC@USC Seminar Series, University of Southern California</div>
+        <div class="talk-title">Wasserstein Gradient Flows for Modeling Strategic Distribution Shift</div>
+        <div class="talk-date">September 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Dr. André Schlichting, Universität Münster</div>
+        <div class="talk-title">Research Visit</div>
+        <div class="talk-date">July 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Theory of Interacting Particle Systems Mini-Symposium, European Congress of Mathematics</div>
+        <div class="talk-title">Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows</div>
+        <div class="talk-date">July 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Intelligent Control Systems Lab Seminar, ETH</div>
+        <div class="talk-title">Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows</div>
+        <div class="talk-date">July 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Kolloquium der angewandten Mathematik, Universität Münster</div>
+        <div class="talk-title">Dynamics of Strategic Agents and Algorithms as PDEs</div>
+        <div class="talk-date">July 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Frontiers in Interacting Particle Systems, Aggregation-Diffusion Equations & Collective Behavior, Summer Research School, CIRM Marseille France</div>
+        <div class="talk-date">June 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Aggregation-Diffusion Equations & Collective Behavior: Analysis, Numerics and Applications Conference, CIRM Marseille France</div>
+        <div class="talk-date">April 2024</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Semiautonomous Seminar at Berkeley</div>
+        <div class="talk-title">Strategic Distribution Shift of Interacting Agents via Coupled Gradient Flows</div>
+        <div class="talk-date">December 2023</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">SIAM Student Meeting at Caltech</div>
+        <div class="talk-title">Inequalities for proving convergence of coupled PDEs for modeling distribution shift</div>
+        <div class="talk-date">October 2023</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Group Seminar, Harvard University</div>
+        <div class="talk-title">Coupled Gradient Flows for Strategic Non-Local Distribution Shift</div>
+        <div class="talk-date">May 2023</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Research Seminar, MIT Lincoln Lab Homeland Protection Systems</div>
+        <div class="talk-title">Coupled Gradient Flows for Strategic Non-Local Distribution Shift</div>
+        <div class="talk-date">May 2023</div>
+    </div>
+    
+    <div class="talk-entry">
+        <div class="talk-location">Group Seminar, University of Washington</div>
+        <div class="talk-title">System Level Synthesis: Parameterization for Linear and Nonlinear Control</div>
+        <div class="talk-date">August 2022</div>
+    </div>
+</div>
+
+<div id="projects" class="tab-content">
+    <h2>Projects</h2>
+    <div class="placeholder">
+        <p>Content for projects will go here.</p>
+        <p style="margin-top: 10px; font-size: 14px;">Add your research projects, code repositories, or ongoing work.</p>
+    </div>
+</div>
+
+<div id="teaching" class="tab-content">
+    <h2>Teaching</h2>
+    <div class="placeholder">
+        <p>Content for teaching will go here.</p>
+        <p style="margin-top: 10px; font-size: 14px;">Add your teaching experience, courses, or TA positions.</p>
+    </div>
+</div>
+
+<div id="reading" class="tab-content">
+    <h2>Reading Group</h2>
+    <div class="placeholder">
+        <p>Content for reading group will go here.</p>
+        <p style="margin-top: 10px; font-size: 14px;">Add information about your reading group, schedule, or papers.</p>
+    </div>
+</div>
+
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+    
+    <script>
+        function showTab(tabName) {
+            const contents = document.querySelectorAll('.tab-content');
+            const tabs = document.querySelectorAll('.tab');
+            
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+  </body>
+</html>
