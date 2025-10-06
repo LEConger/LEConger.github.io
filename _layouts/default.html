@@ -182,36 +182,39 @@
         
         /* ----- PUBLICATIONS SECTION ----- */
         .publication {
-            background: #fff;
-            border: 1px solid #e8e8e8;
-            border-radius: 6px;
-            padding: 12px 16px;
-            margin-bottom: 12px;
-            transition: box-shadow 0.2s ease;
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eaeaea; /* subtle separator */
         }
         
-        .publication:hover {
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        .publication:last-child {
+            border-bottom: none; /* no line at end */
         }
         
         .publication-title {
-            font-weight: 500;           /* medium instead of bold */
+            font-weight: 500;
+            color: #003366;
             font-size: 1.05em;
-            color: #003366;             /* deep navy — easier on eyes than black */
-            margin-bottom: 4px;
+            margin-bottom: 3px;
+            display: block;
+        }
+        
+        .publication-title:hover {
+            color: #0066cc;
+            cursor: pointer;
         }
         
         .authors {
             font-size: 0.95em;
             color: #555;
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
         
         .venue {
             font-size: 0.9em;
             color: #777;
             font-style: italic;
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
         
         .award {
@@ -219,12 +222,12 @@
             font-weight: 600;
         }
         
-        /* Links to papers */
         .publication a {
             color: #0066cc;
             text-decoration: none;
             font-weight: 500;
         }
+        
         .publication a:hover {
             text-decoration: underline;
         }
