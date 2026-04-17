@@ -1,4 +1,4 @@
-I am a PhD candidate in Control and Dynamical Systems at Caltech. I am advised by Professors [Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/), [Franca Hoffmann](https://francahoffmann.com/) and [John Doyle](https://eas.caltech.edu/people/doyle). 
+I am an incoming Szegő Assistant Professor in the Department of Mathematics at Stanford University and an incoming NSF Mathematical Sciences Postdoctoral Research Fellow. I am finishing my PhD candidate in Control and Dynamical Systems at Caltech, advised by Professors [Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/), [Franca Hoffmann](https://francahoffmann.com/) and [John Doyle](https://eas.caltech.edu/people/doyle). 
 My research is on control theory and analysis of game dynamics using PDEs.
 
 Before Caltech, I earned my Bachelors degree in [Electrical and Computer Engineering](https://www.ece.cornell.edu/ece) with a physics minor from Cornell University in 2018.
