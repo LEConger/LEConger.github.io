@@ -11,6 +11,9 @@
     <![endif]-->
     <style>
 
+        /* Global box-sizing to avoid layout surprises */
+        * { box-sizing: border-box; }
+
         header img {
             width: 100%;
             height: auto;
@@ -24,22 +27,32 @@
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
+            /* Make the main wrapper a flex container so header and section sit side-by-side */
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            flex-wrap: wrap; /* allow stacking on narrow screens */
         }
         
         header {
-            width: 25%;
+            /* Use flexible sizing so header keeps a reasonable width */
+            flex: 0 0 25%;
             min-width: 200px;
+            max-width: 320px;
         }
         
         section {
-            width: 70%;
+            /* Allow section to take the remaining space */
+            flex: 1 1 60%;
             max-width: 800px;
+            padding: 20px 0; /* moved from later duplicate rule for clarity */
         }
         
         @media screen and (max-width: 960px) {
             header, section {
                 width: 100%;
                 max-width: 100%;
+                flex: 1 1 100%;
             }
         }
         
@@ -88,6 +101,7 @@
         .tab-content {
             display: none;
             animation: fadeIn 0.3s;
+            padding: 15px 10px; /* ensure consistent spacing */
         }
         
         .tab-content.active {
@@ -153,15 +167,6 @@
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-        }
-        
-        section {
-            padding: 20px 0;
-        }
-        
-        /* Better spacing inside tab content */
-        .tab-content {
-            padding: 15px 10px;
         }
         
         /* Headings inside tabs */
@@ -283,7 +288,6 @@
           }
         }
 
-        
         /* ----- TALKS SECTION ----- */
         .talk-entry {
             background: #fafafa;
@@ -472,23 +476,23 @@
       <section>
       
       <p> I am an applied mathematician and engineer interested in the use of mathematical analysis driven by emerging applications in the information sciences.
-          I build analysis tools to lift finite-dimensional results in control theory, game theory and machine learning to infinite dimensions, elucidating new application insights that depend on this[...]
-        In game theory, I extend classical finite-dimension notions of contractivity to the (infinite-dimensional) measure-valued setting via analysis of <b>coupled multispecies gradient flows</b>. 
+          I build analysis tools to lift finite-dimensional results in control theory, game theory and machine learning to infinite dimensions, elucidating new application insights that depend on[...]
+        In game theory, I extend classical finite-dimension notions of contractivity to the (infinite-dimensional) measure-valued setting via analysis of <b>coupled multispecies gradient flows</b[...]
         In control theory, among core <b>distributed control</b> results, my work lifts a recent parameterization to the (infinite-dimensional) Hilbert space setting.
         In support of <b>robust machine learning</b>, I analyze (infinite-dimensional) distributional models to illustrate the effects of strategic agents on learning algorithms.
       </p>
 
         
-      <p>I am an incoming Szegő Assistant Professor in the Department of Mathematics at Stanford University and an incoming NSF Mathematical Sciences Postdoctoral Research Fellow. I am finishing my P[...]
+      <p>I am an incoming Szegő Assistant Professor in the Department of Mathematics at Stanford University and an incoming NSF Mathematical Sciences Postdoctoral Research Fellow. I am finishing[...]
 
-      <p>Before Caltech, I earned my Bachelors degree in <a href="https://www.ece.cornell.edu/ece">Electrical and Computer Engineering</a> with a physics minor from Cornell University in 2018. My work[...]
+      <p>Before Caltech, I earned my Bachelors degree in <a href="https://www.ece.cornell.edu/ece">Electrical and Computer Engineering</a> with a physics minor from Cornell University in 2018. My[...]
           supported by a National Defense Science and Engineering Graduate Fellowship and PIMCO Data Science Graduate Fellowship. You can reach me at lconger [at] caltech [dot] edu. </p>
 
       
         
 <hr>
  
-<p><a href="Conger_CV_website.pdf" target="_blank">CV</a>, <a href="https://scholar.google.com/citations?hl=en&user=Iv6uAdMAAAAJ">Google Scholar</a>, <a href="https://www.linkedin.com/in/lauren-conger[...]
+<p><a href="Conger_CV_website.pdf" target="_blank">CV</a>, <a href="https://scholar.google.com/citations?hl=en&user=Iv6uAdMAAAAJ">Google Scholar</a>, <a href="https://www.linkedin.com/in/lauren-c[...]"
 
 <hr>
 
@@ -508,7 +512,7 @@
         <span class="publication-title">Monotone Multispecies Flows</span>
         <div class="publication-links">
           <a href="https://www.birs.ca/events/2025/5-day-workshops/25w5430/videos/watch/202507011400-Conger.html" target="_blank">talk: Banff Workshop</a>
-          <a href="https://in.mail.cassyni.com/CL0/https:%2F%2Fdoi.org%2F10.52843%2Fcassyni.1bbr4n/1/0100019842807acd-2bf581d5-17d3-49ca-948f-a0ad42b939af-000000/SKv14RS82eV6UFFk9b8Slfgm-SeRQJX7cLSwe2[...]
+          <a href="https://in.mail.cassyni.com/CL0/https:%2F%2Fdoi.org%2F10.52843%2Fcassyni.1bbr4n/1/0100019842807acd-2bf581d5-17d3-49ca-948f-a0ad42b939af-000000/SKv14RS82eV6UFFk9b8Slfgm-SeRQJX7c[...]
           <a href="https://arxiv.org/abs/2506.22947" target="_blank">paper</a>
         </div>
       </div>
@@ -881,7 +885,7 @@
                 <span class="course-title">CS 143: Networks: Algorithms & Architecture</span>
                 <span class="course-term">Fall 2025</span>
             </div>
-        </li>
+            </li>
         <li class="teaching-entry">
             <div class="course-header">
                 <span class="course-title">CDS 131: Linear Systems</span>
@@ -915,7 +919,7 @@
 <div id="reading" class="tab-content">
     <h2>Gradient Flows Reading Group</h2>
     <p style="margin-bottom: 25px;">
-        Graduate students and postdocs from around the world meet bi-weekly to discuss research papers related to gradient flows, optimal transport, and mean-field games. Please email me if you would [...]
+        Graduate students and postdocs from around the world meet bi-weekly to discuss research papers related to gradient flows, optimal transport, and mean-field games. Please email me if you w[...]
     </p>
 
     <h3>Upcoming Schedule</h3>
@@ -923,7 +927,7 @@
       <span class="reading-date">October 28, 2025:</span>
       <span class="reading-speaker"><strong>Lukas Weigand</strong></span>
       <span class="reading-topic">
-        <a href="https://arxiv.org/abs/2501.03096" target="_blank">"Analysis of mean-field models arising from self-attention dynamics in transformer architectures with layer normalization" Burger, Ka[...]
+        <a href="https://arxiv.org/abs/2501.03096" target="_blank">"Analysis of mean-field models arising from self-attention dynamics in transformer architectures with layer normalization" Burge[...]
       </span>
       <span class="reading-topic">
         <a href="https://arxiv.org/pdf/0803.1235" target="_blank">"A new class of transport distances between measures" Dolbeault, Nazaret, Savaré (2009)</a>
@@ -940,10 +944,10 @@
       <span class="reading-date">December 8, 2025:</span>
       <span class="reading-speaker"><strong>Anna Shavlova, Ben Faktor</strong></span>
       <span class="reading-topic">
-        <a href="https://research.tue.nl/en/publications/noisy-gradient-flows-with-applications-in-machine-learning" target="_blank">"Nonlinear diffusion limit of non-local interactions on a sphere" S[...]
+        <a href="https://research.tue.nl/en/publications/noisy-gradient-flows-with-applications-in-machine-learning" target="_blank">"Nonlinear diffusion limit of non-local interactions on a sphe[...]
       </span>
       <span class="reading-topic">
-        <a href="https://www.math.toronto.edu/mccann/papers/MattesMcCannSavare.pdf#:~:text=Global%20existence%20and%20long-time%20behavior%20of%20solutions%20to,information%20functionals%20with%20resp[...]
+        <a href="https://www.math.toronto.edu/mccann/papers/MattesMcCannSavare.pdf#:~:text=Global%20existence%20and%20long-time%20behavior%20of%20solutions%20to,information%20functionals%20with%2[...]
       </span>
     </div>
 
@@ -968,7 +972,7 @@
       <span class="reading-date">May 12, 2025:</span>
       <span class="reading-speaker"><strong>Holger Spellmann, Lauren Conger</strong></span>
       <span class="reading-topic">
-        <a href="https://www.sciencedirect.com/science/article/pii/S0362546X22001833?fr=RR-2&ref=pdf_download&rr=91fd20a3984f2a92" target="_blank">"Cosh Gradient Systems and Tilting" Peletier, Schlich[...]
+        <a href="https://www.sciencedirect.com/science/article/pii/S0362546X22001833?fr=RR-2&ref=pdf_download&rr=91fd20a3984f2a92" target="_blank">"Cosh Gradient Systems and Tilting" Peletier, Sc[...]
       </span>
     </div>
     <div class="reading-entry">
@@ -985,7 +989,7 @@
       <span class="reading-date">March 24, 2025:</span>
       <span class="reading-speaker"><strong>Connor Marrs, Megha Kamath</strong></span>
       <span class="reading-topic">
-        <a href="https://link.springer.com/article/10.1007/s00526-017-1287-5" target="_blank">"Gradient flow for the Boltzmann entropy and Cheeger's energy... Part 2" Gallouet, Monsaingeon (2017)</a>
+        <a href="https://link.springer.com/article/10.1007/s00526-017-1287-5" target="_blank">"Gradient flow for the Boltzmann entropy and Cheeger's energy... Part 2" Gallouet, Monsaingeon (2017)[...]
       </span>
     </div>
     <div class="reading-entry">
@@ -999,49 +1003,6 @@
       <span class="reading-date">February 24, 2025:</span>
       <span class="reading-speaker"><strong>Guillaume Wang, Giacomo Borghi</strong></span>
       <span class="reading-topic">
-        <a href="https://epubs.siam.org/doi/10.1137/16M106666X" target="_blank">"A JKO Splitting Scheme for Kantorovich-Fisher-Rao Gradient Flows" Gallouet, Monsaingeon (2017)</a>
+        <a href="https://arxiv.org/abs/2410.04947" target="_blank">"Kermack-McKendrick type models for epidemics with nonlocal aggregation terms" Di Francesco, Zefreh</a>
       </span>
-    </div>
-    <div class="reading-entry">
-      <span class="reading-date">February 10, 2025:</span>
-      <span class="reading-speaker"><strong>Connor Marrs, Megha Kamath</strong></span>
-      <span class="reading-topic">
-        <a href="https://link.springer.com/article/10.1007/s00526-017-1287-5" target="_blank">"Gradient flow for the Boltzmann entropy and Cheeger's energy... Part 1" Kopfer (2018)</a>
-      </span>
-    </div>
-    <div class="reading-entry">
-      <span class="reading-date">January 27, 2025:</span>
-      <span class="reading-speaker"><strong>Jethro Warnett, Shuchen Guo</strong></span>
-      <span class="reading-topic">
-        <a href="https://arxiv.org/abs/1803.08345v5" target="_blank">"Mean field limit for coulomb-type flows" Serfaty (2018)</a>
-      </span>
-    </div>
-    <div class="reading-entry">
-      <span class="reading-date">January 13, 2025:</span>
-      <span class="reading-speaker"><strong>Lauren Conger, Djordje Nikolic</strong></span>
-      <span class="reading-topic">
-        <a href="https://ems.press/journals/rmi/articles/5018" target="_blank">"Kinetic equilibration rates for granular media and related equations" Carrillo, McCann, Villani (2003)</a>
-      </span>
-    </div>
-</div>
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
-</html>
+[...]
