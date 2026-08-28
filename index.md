@@ -1,9 +1,9 @@
-I am an incoming Szegő Assistant Professor in the Department of Mathematics at Stanford University and an incoming NSF Mathematical Sciences Postdoctoral Research Fellow. I completed my PhD candidate in Control and Dynamical Systems at Caltech, advised by Professors [Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/), [Franca Hoffmann](https://francahoffmann.com/) and [John Doyle](https://eas.caltech.edu/people/doyle) and currently am a postdoc with Franca Hoffmann. 
-My research is on control theory and analysis of game dynamics using PDEs.
+I am an incoming Szegő Assistant Professor in the Department of Mathematics at Stanford University and an incoming NSF Mathematical Sciences Postdoctoral Research Fellow. My research focuses on multispecies evolutions and gradient flows with applications in population modeling and strategic behavior.
 
-Before Caltech, I earned my Bachelors degree in [Electrical and Computer Engineering](https://www.ece.cornell.edu/ece) with a physics minor from Cornell University in 2018.
 
-I am supported by a National Defense Science and Engineering Graduate Fellowship and PIMCO Data Science Graduate Fellowship.
+I completed my PhD candidate in Control and Dynamical Systems at Caltech, advised by Professors [Franca Hoffmann](https://francahoffmann.com/), [Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/) and [John Doyle](https://eas.caltech.edu/people/doyle). I was supported by a National Defense Science and Engineering Graduate Fellowship and PIMCO Data Science Graduate Fellowship. I earned my Bachelors degree in [Electrical and Computer Engineering](https://www.ece.cornell.edu/ece) with a physics minor from Cornell University in 2018.
+
+
 
 ---
 You can reach me at lconger [at] caltech [dot] edu.
@@ -17,10 +17,6 @@ You can reach me at lconger [at] caltech [dot] edu.
 ## Publications 
 
 ### Preprints
-
-Monotone Multispecies Flows \
-**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff .\
-[[paper](https://arxiv.org/abs/2506.22947)]
 
 Coupled Wasserstein Gradient Flows for Min-Max and Cooperative Games \
 **Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff. \
@@ -71,6 +67,11 @@ _ACC, 2022_ \
 [[paper](https://arxiv.org/abs/2111.00098)]
 
 ### Journal Papers
+Monotone Multispecies Flows \
+**Lauren Conger**, Franca Hoffmann, Eric Mazumdar, Lillian Ratliff.\
+_SIAM Dynamical Systems, 2026_ \
+[[paper](https://arxiv.org/abs/2506.22947)]
+
 Resolution and dose dependence of radiation damage in biomolecular systems \
 Hakan Atakisi, **Lauren Conger**, David Moreau and Robert Thorne. \
 _International Union of Crystallography Journal, 2019_ \
@@ -82,6 +83,29 @@ Gnadt, Belarge, Canciani, **Conger**, Curro, Edelman, Morales, O'Keeffe, Taylor,
 [[paper](https://arxiv.org/pdf/2007.12158.pdf)]
 
 ## Talks and Visits
+
+ICERM Workshop Partial Differential Equations for Many Particles Systems, Providence \
+August 2026
+
+FoCM Workshop Computational Optimal Transport, Vienna, Austria \
+Dissipative Evolutions in Metric Spaces \
+July 2026
+
+Prof. Jan Maas, Vienna, Austria \
+July 2026
+
+Oberwolfach Workshop: Flows on Measure Spaces and Applications in Machine
+Learning, Oberwolfach, Germany \
+Games & Gradient Flows: Modeling Strategic Behavior \
+March 2026
+
+Nonlinear Partial Differential Equations Spring School, Ulm, Germany \
+Monotone Multispecies Flows \
+March 2026
+
+Prof. Giuseppe Savar\'e, Milan, Italy \
+Monotonicity of Coupled Multispecies Wasserstein-2 Gradient Flows (Politecnico di Milano) \
+November 2025 
 
 American Control Conference, Denver \
 Convex Constrained Controller Synthesis for Evolution Equations \
@@ -106,7 +130,7 @@ CSC@USC Seminar Series, University of Southern California \
 Wasserstein Gradient Flows for Modeling Strategic Distribution Shift \
 September 2024
 
-Dr. André Schlichting, Universität Münster \
+Prof. André Schlichting, Universität Münster \
 Research Visit \
 July 2024
 
